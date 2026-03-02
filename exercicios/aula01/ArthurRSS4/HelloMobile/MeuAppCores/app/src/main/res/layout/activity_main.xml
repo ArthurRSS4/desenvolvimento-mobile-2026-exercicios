@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout principal: LinearLayout vertical com padding e centralização -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- TextView de boas-vindas -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView com o nome real do desenvolvedor (Arthur Renê) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arthur Renê"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- TextView com a matrícula (exemplo) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrícula: 10070072493"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Botão para mudar a cor de fundo -->
+    <Button
+        android:id="@+id/buttonMudarCor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mudar Cor"/>
+
+</LinearLayout>
